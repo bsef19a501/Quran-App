@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_para"
+            android:title="Para" />
+        <item
+            android:id="@+id/nav_surahs"
+            android:title="Surah" />
+        <item
+            android:id="@+id/nav_bookmarks"
+
+            android:title="Bookmarks" />
+
+    </group>
+
+
+    <item android:title="Settings">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_language"
+
+                    android:title="Language" />
+                <item
+                    android:id="@+id/nav_theme"
+
+                    android:title="Theme" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Comments">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/Nav_add_comment"
+
+                    android:title="Add Comment" />
+                <item
+                    android:id="@+id/nav_insert_comment"
+
+                    android:title="Insert Comment" />
+            </group>
+        </menu>
+    </item>
+
+
+
+</menu>
